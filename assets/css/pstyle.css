@@ -123,9 +123,24 @@ footer {
     .projecti{
         background-color: #3333332f;
         margin:auto;
+        padding: 3%;
         border-radius: 23px;
         width: 300px;
-        height: 50vh;
+        height: max-content;
+        justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        box-shadow: 0 2px 12px 0 rgba(31, 30, 30, 0.877);
+    }
+}
+@media only screen and (max-height: 700px){
+    .projecti{
+        background-color: #3333332f;
+        margin:auto;
+        padding: 3%;
+        border-radius: 23px;
+        width: 300px;
+        height: max-content;
         justify-content: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-align: center;
