@@ -56,7 +56,7 @@ main{
     flex-wrap: wrap;
 }
 .gauche{
-    width:50vw;
+    width:40vw;
     padding: 4%;
 }
 h1{
@@ -88,34 +88,40 @@ h1{
     font-size: larger;
     font-weight: bolder;
 }
-.abcontent{
-    display:flex;
+main{
+    color: white;
+}
+.title{
+    text-align: center;
+}
+.article-container{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.droite img{
+section{
     width: 20em;
-    height: 20em;
-}
-img{
+    height: 24em;
+    background-color: rgba(99, 189, 174, 0.959);
+    margin: 2%;
     border-radius: 23px;
-}
-.about{
-    width: 40vw;
     text-align: center;
-    padding:3%;
-    margin:3%;
 }
-.gallery img{
-    width:fit-content;
-    height: fit-content;
-}
-.contact{
-    margin-left: 2%;
-    padding:2%;
-    background-color: rgba(240, 255, 249, 0.363);
-    width: max-content;
+section button{
+    border: none;
     border-radius: 23px;
+    width: 45px;
+    height: 30px;
+    background-color: rgb(106, 250, 183);
+}
+section button a{
+    text-decoration: none;
+    color: green;
+}
+.arti{
+    height:77%;
 }
 @media only screen and (max-width: 567px){
     .logo{
@@ -159,28 +165,5 @@ img{
 #navMenu .navbar a{
     text-decoration: none;
     color:rgba(58, 160, 143, 0.959) ;
-}
-main h1{
-    font-size: 40px;
-    font-weight: bolder;
-}
-main h2{
-    font-size: larger;
-    font-weight: bold;
-}
-.gauche{
-    width:max-content;
-    padding: 4%;
-}
-.button{
-    width: max-content;
-    padding: 1%;
-}
-.about{
-    border-radius:23px;
-    text-align: left;
-    margin:3%;
-    width: 88vw;
-    background-color: rgba(255, 255, 255, 0.295);
 }
 }

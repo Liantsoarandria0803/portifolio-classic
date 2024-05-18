@@ -1,57 +1,44 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liantsoa Randria</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>e-watch</title>
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <nav class="option">
-            <div class="o1">
-             <button ><a href="index.html">A propos</a></button>
-            </div>
-            <div class="o2"> 
-             <button ><a href="./assets/html/project.html">Projets</a></button>
-            </div>
-            <div class="o3">
-             <button ><a href="./assets/html/contact.html">Contact</a></button>
-            </div> 
-     </nav>
+        <nav>
+            <h2 class="logo">Liantsoa RANDRIA</h2>
+            <a href="./index.html" class="l1"><button>Acceuil</button></a>
+            <a href="./asset/html/about.html" class="l2"><button>A propos</button></a>
+            <a href="./asset/html/service.html" class="l3"><button>Projets</button></a>
+            <a href="./asset/html/Contact.html" class="l4"><button>Contact</button></a>
+            <button id="menu">...</button>
+        </nav>
+        <div id="navMenu"></div>
     </header>
-    <main >
-        <div id="grid">
-            <section id="image">
-                <img class="image" src="./assets/img/IMG_20240201_080455.jpg">
-             </section>
-          <section id="about">
-            <h2>À propos de moi</h2>
-			<h4>Liantsoa RANDRIANASIMBOLARIVELO</h4>
-            <ul>
-			   <li>21 ans</li>
-			   <li>Etudiant en Mathématiques et informatique</li>
-			   <li>Développeur Web (front-end)</li>
-               <li>Programmeur informatique </li>
-               <li>Web designer</li>
-			</ul>
-         </section>
-         <section class="skills">
-            <h2>Competences</h2>
-            <ul>
-                <li>Programmation informatique </li>
-                <li>Design </li>
-                <li>Développement Web</li>
-                <li>Administration et système (LINUX)</li>
-                <li>Data science et machine learning(Novice)</li>
-             </ul>
-         </section>
+    <main>
+        <div class="flex">
+            <div class="gauche">
+                <h1>BIENVENUE</h1>
+                <h2>SUR MON PORTIFOLIO</h2>
+                <ul>
+                    <li>Etudiant</li>
+                    <li>Web developper</li>
+                    <li>Designer</li>
+                    <li>Entrepreneur</li>
+                </ul>
+            </div>
+            <div class="droite">
+                <img src="./asset/img/IMG_20240201_080455.jpg" alt="">
+            </div>
+        </div>
+        <div class="button">
+            <a href="./asset/html/about.html" ><button>A propos</button></a>
+            <a href="./asset/html/service.html"><button>Projets</button></a>
         </div>
     </main>
-    <footer>
-        <p>&copy; Liantsoa RANDRIA</p>
-    </footer>
+    <script src="./asset/js/menuscript.js"></script>
 </body>
 </html>
