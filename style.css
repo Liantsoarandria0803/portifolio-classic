@@ -2,13 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(58, 160, 143, 0.959);
+    background-color: black;
+    background-image: url(./asset/img/elevated-view-laptop-earphones-crumpled-papers-pencil-blank-spiral-notepad-frame-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left:4% ;
-    background-color: rgba(119, 214, 198, 0.959);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 nav{
     display:grid;
@@ -54,10 +59,14 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 3%;
+    gap: 2em;
 }
 .gauche{
     width:50vw;
     padding: 4%;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 23px;
 }
 h1{
     font-size: 4em;
@@ -105,6 +114,8 @@ img{
     text-align: center;
     padding:3%;
     margin:3%;
+    border-radius: 23px;
+    background-color: rgba(0, 0, 0, 0.822);
 }
 .gallery img{
     width:fit-content;
@@ -113,7 +124,7 @@ img{
 .contact{
     margin-left: 2%;
     padding:2%;
-    background-color: rgba(240, 255, 249, 0.363);
+    background-color: rgba(0, 0, 0, 0.822);
     width: max-content;
     border-radius: 23px;
 }
@@ -181,11 +192,14 @@ main h2{
     width: max-content;
     padding: 1%;
 }
+.abcontent{
+    padding: 2%;
+}
 .about{
     border-radius:23px;
     text-align: left;
     margin:3%;
     width: 88vw;
-    background-color: rgba(255, 255, 255, 0.295);
+    background-color: rgba(0, 0, 0, 0.822);
 }
 }

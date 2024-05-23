@@ -2,13 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(58, 160, 143, 0.959);
+    background-color: black;
+    background-image: url(./../img/elevated-view-laptop-earphones-crumpled-papers-pencil-blank-spiral-notepad-frame-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left:4% ;
-    background-color: rgba(119, 214, 198, 0.959);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 nav{
     display:grid;
@@ -104,7 +109,7 @@ main{
 section{
     width: 20em;
     height: 24em;
-    background-color: rgba(99, 189, 174, 0.959);
+    background-color:  rgba(0, 0, 0, 0.822);
     margin: 2%;
     border-radius: 23px;
     text-align: center;
@@ -114,11 +119,11 @@ section button{
     border-radius: 23px;
     width: 45px;
     height: 30px;
-    background-color: rgb(106, 250, 183);
+    background-color: rgb(34, 33, 33);
 }
 section button a{
     text-decoration: none;
-    color: green;
+    color:white;
 }
 .arti{
     height:77%;
@@ -164,11 +169,11 @@ section button a{
 }
 #navMenu .navbar a{
     text-decoration: none;
-    color:rgba(58, 160, 143, 0.959) ;
+    color:rgba(31, 32, 32, 0.959) ;
 }
 #navMenu .navbar a:hover{
     text-decoration: none;
     color:white ;
-    background-color:rgba(58, 160, 143, 0.959) ;
+    background-color:rgba(32, 32, 32, 0.959) ;
 }
 }
