@@ -107,7 +107,8 @@ main{
     align-items: center;
 }
 @keyframes up{
-    from{ margin-top: 10%;}
+    from{ margin-top: 50%;
+    margin-left: 30%;}
     to{margin-top: 0%;}
 }
 section{
@@ -118,7 +119,7 @@ section{
     border-radius: 23px;
     text-align: center;
      animation-name: up;
-     animation-duration: 0.5s;
+     animation-duration: 0.8s;
 }
 section button{
     border: none;

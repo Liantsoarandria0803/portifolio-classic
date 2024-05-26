@@ -68,7 +68,7 @@ main{
     background-color: rgba(0, 0, 0, 0.822);
     border-radius: 23px;
     animation-name: up;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
 }
 h1{
     font-size: 4em;
@@ -103,6 +103,8 @@ h1{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    animation-name: up;
+    animation-duration: 0.8s;
 }
 .droite img{
     width: 20em;
@@ -122,7 +124,9 @@ img{
     background-color: rgba(0, 0, 0, 0.822);
 }
 @keyframes up{
-    from{ margin-top: 10%;}
+    from{ margin-top: 40%;
+        margin-left: 30%;
+    }
     to{margin-top: 3%;}
 }
 .gallery img{
@@ -136,7 +140,7 @@ img{
     width: max-content;
     border-radius: 23px;
     animation-name: up;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
 }
 @media only screen and (max-width: 567px){
     .logo{
@@ -193,6 +197,8 @@ main h2{
 .gauche{
     width:max-content;
     padding: 4%;
+    animation-name: up;
+    animation-duration: 0.8s;
 }
 .button{
     width: max-content;
@@ -208,10 +214,11 @@ main h2{
     width: 88vw;
     background-color: rgba(0, 0, 0, 0.822);
     animation-name: up;
-    animation-duration: 0.4s;
+    animation-duration: 0.8s;
+    animation-fill-mode: backwards;
 }
 @keyframes up{
-    from{ margin-top: 10%;}
-    to{margin-top: 3%;}
+    from{ margin-top: 30%;}
+    to{margin-top: 30%;}
 }
 }
