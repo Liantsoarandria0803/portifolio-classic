@@ -89,7 +89,7 @@ h1{
     height: 50px;
     margin:2%;
     background-color: rgb(252, 252, 252);
-    color:rgba(58, 160, 143, 0.959);
+    color:rgba(0, 0, 0, 0.959);
     font-size: larger;
     font-weight: bolder;
 }
@@ -106,6 +106,10 @@ main{
     justify-content: center;
     align-items: center;
 }
+@keyframes up{
+    from{ margin-top: 10%;}
+    to{margin-top: 0%;}
+}
 section{
     width: 20em;
     height: 24em;
@@ -113,6 +117,8 @@ section{
     margin: 2%;
     border-radius: 23px;
     text-align: center;
+     animation-name: up;
+     animation-duration: 0.5s;
 }
 section button{
     border: none;

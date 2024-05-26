@@ -67,6 +67,8 @@ main{
     padding: 4%;
     background-color: rgba(0, 0, 0, 0.822);
     border-radius: 23px;
+    animation-name: up;
+    animation-duration: 0.5s;
 }
 h1{
     font-size: 4em;
@@ -93,7 +95,7 @@ h1{
     height: 50px;
     margin:2%;
     background-color: rgb(252, 252, 252);
-    color:rgba(58, 160, 143, 0.959);
+    color:rgba(0, 0, 0, 0.959);
     font-size: larger;
     font-weight: bolder;
 }
@@ -105,6 +107,8 @@ h1{
 .droite img{
     width: 20em;
     height: 20em;
+    animation-name: up;
+    animation-duration: 0.5s;
 }
 img{
     border-radius: 23px;
@@ -117,6 +121,10 @@ img{
     border-radius: 23px;
     background-color: rgba(0, 0, 0, 0.822);
 }
+@keyframes up{
+    from{ margin-top: 10%;}
+    to{margin-top: 3%;}
+}
 .gallery img{
     width:fit-content;
     height: fit-content;
@@ -127,6 +135,8 @@ img{
     background-color: rgba(0, 0, 0, 0.822);
     width: max-content;
     border-radius: 23px;
+    animation-name: up;
+    animation-duration: 0.5s;
 }
 @media only screen and (max-width: 567px){
     .logo{
@@ -197,5 +207,11 @@ main h2{
     margin:3%;
     width: 88vw;
     background-color: rgba(0, 0, 0, 0.822);
+    animation-name: up;
+    animation-duration: 0.4s;
+}
+@keyframes up{
+    from{ margin-top: 10%;}
+    to{margin-top: 3%;}
 }
 }
