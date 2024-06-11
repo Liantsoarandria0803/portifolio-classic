@@ -69,6 +69,10 @@ main{
     border-radius: 23px;
     animation-name: up;
     animation-duration: 0.8s;
+    box-shadow: 0 12px 20px 0 rgba(252, 252, 252, 0.877);
+}
+.gauche:hover{
+    box-shadow: 0 12px 20px 0 rgba(44, 176, 238, 0.877);
 }
 h1{
     font-size: 4em;
@@ -114,6 +118,10 @@ h1{
 }
 img{
     border-radius: 23px;
+    box-shadow: 0 12px 20px 0 rgba(252, 252, 252, 0.877);
+}
+img:hover{
+    box-shadow: 7px 12px 20px 0 rgba(65, 178, 253, 0.877);
 }
 .about{
     width: 40vw;
@@ -122,6 +130,10 @@ img{
     margin:3%;
     border-radius: 23px;
     background-color: rgba(0, 0, 0, 0.822);
+    box-shadow: 0 12px 20px 0 rgba(252, 252, 252, 0.877);
+}
+.about:hover{
+    box-shadow: 7px 12px 20px 0 rgba(65, 178, 253, 0.877);
 }
 @keyframes up{
     from{ margin-top: 40%;

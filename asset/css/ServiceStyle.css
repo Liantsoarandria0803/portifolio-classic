@@ -120,6 +120,10 @@ section{
     text-align: center;
      animation-name: up;
      animation-duration: 0.8s;
+     box-shadow: 0 12px 20px 0 rgba(252, 252, 252, 0.877);
+}
+section:hover{
+    box-shadow: 7px 12px 20px 0 rgba(112, 181, 245, 0.877);
 }
 section button{
     border: none;
