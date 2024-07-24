@@ -1,38 +1,48 @@
 {
     "project1":{
         "name":"MLP BY RANDRIA",
-        "description":"Un perceptron multicouche (MLP) est un type de réseau neuronal artificiel composé de plusieurs couches de neurones. Les neurones du MLP utilisent généralement des fonctions d'activation non linéaires, permettant au réseau d'apprendre des modèles complexes dans les données. Et c'est un modèle d'ANN que j'ai créé qui peut classer 2 classes (0 ou 1)",
+        "description":"Un perceptron multicouche (MLP) est un type de réseau neuronal artificiel composé de plusieurs couches de neurones. Les neurones du MLP utilisent généralement des fonctions d'activation non linéaires, permettant au réseau d'apprendre des modèles complexes dans les données. Et c'est un modèle d'ANN que j'ai créé qui peut classer 2 classes (0 ou 1)     <br><br><strong> Techno: </strong> python",
         "link":"https://github.com/Liantsoarandria0803/MultiLayersPerceptron"   
     },
     "project2":{
         "name":"JOYALESTORE",
-        "description": "Un simple e-commerce site  web dynamique dedie aux ventes des articles vestimentaires",
+        "description": "Un simple e-commerce site  web dynamique dedie aux ventes des articles vestimentaires <br><br><strong> Techno: </strong> HTML,CSS,JAVASCRIPT",
         "link":"https://liantsoarandria0803.github.io/JOYA/"
     },
     "project3":{
         "name":"RANDRIA'SCRIPT",
-        "description":"Un logiciel libre qui permet de crypter et de decrypter des messages selon son propre type de cryptage (cryptage symétrique)",
+        "description":"Un logiciel libre qui permet de crypter et de decrypter des messages selon son propre type de cryptage (cryptage symétrique) <br><br><strong> Techno: </strong> c",
         "link":"https://github.com/Liantsoarandria0803/Randria-scrypt"
     },
     "project4":{
         "name":"WEDDING CLASS",
-        "description":" Un simple e-commerce site web dedie aux ventes des articles pour mariage.",
+        "description":" Un simple e-commerce site web dedie aux ventes des articles pour mariage. <br><br><strong> Techno: </strong> HTML,CSS,JAVASCRIPT",
         "link":"https://bidyhandrianarison.github.io/wedding_class/"
     },
     "project5":{
         "name":"MACHINE A SOUS",
-        "description":"Un simple web application ou un mini jeu en ligne qui a le même principe que la machine A sous en réalité.",
+        "description":"Un simple web application ou un mini jeu en ligne qui a le même principe que la machine A sous en réalité. <br><br><strong> Techno: </strong> HTML,css,JAVASCRIPT",
         "link":"https://liantsoarandria0803.github.io/MachineAsous/"
     },
     "project6":{
         "name": "APP AGE CALCULATOR",
-        "description":"Un simple web application qui détermine l'ensemble des temps (Y/M/D)que vous aviez survécu sur terre",
+        "description":"Un simple web application qui détermine l'ensemble des temps (Y/M/D)que vous aviez survécu sur terre <br><br><strong> Techno: </strong> HTML,css,JAVASCRIPT",
         "link":"https://liantsoarandria0803.github.io/AGE_CALCULATOR/"
     },
     "project7":{
         "name":"BRAINFUCK INTERPRETER",
-        "description":"UN simple programme qui interprete les codes brainfuck",
+        "description":"UN simple programme qui interprete les codes brainfuck <br><br><strong> Techno: </strong> python ,c++",
         "link":"https://github.com/Liantsoarandria0803/Brainfuck-Interpreter"
+    },
+    "project8":{
+        "name":"GroupChatApp",
+        "description":"Un application web dedier pour se communiquer entre groupe <br><br><strong> Techno: </strong> HTML,css,JAVASCRIPT,PHP,MYSQL",
+        "link":""
+    },
+    "project9":{
+        "name":"SambaAdminUI",
+        "description":"Un interface web dedier pour les admins pour un serveur SAMBA <br><br><strong> Techno: </strong> HTML,css,JAVASCRIPT,PHP,MYSQL",
+        "link":""
     }
 
 }

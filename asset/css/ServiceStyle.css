@@ -172,11 +172,10 @@ section button a{
     margin: 0%;
 }
 #navMenu .navbar{
-    grid-column: 13/14;
     background-color: rgba(255, 255, 255, 0.726);  
     padding:12%; 
     border-radius: 23px;
-    width:max-content;
+    width:80vw;
 }
 #navMenu .navbar a{
     text-decoration: none;

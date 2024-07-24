@@ -212,6 +212,12 @@ main h2{
     animation-name: up;
     animation-duration: 0.8s;
 }
+.droite{
+    display: none;
+}
+.img{
+    display: none;
+}
 .button{
     width: max-content;
     padding: 1%;
